@@ -40,7 +40,23 @@ function refreshPage()
 	document.db_select_form.db.value = dbName;
 	document.db_select_form.submit();
 }
+</script>
 
+<form method="POST" name="db_select_form" action="/cgi-bin/tools/ESE3/esefinder.cgi" ENCTYPE="multipart/form-data">
+		<input type="hidden" name="db" value="">
+		<input type="hidden" name="process" value="home">
+</form>
+
+<br><br>
+
+<form method="POST" action="/cgi-bin/tools/ESE3/esefinder.cgi" name="query_form"  enctype="multipart/form-data">
+<input type="hidden" name="process" value="search">
+
+
+	<script language="javascript">
+ 
+
+</script>
 
 </table>
 
