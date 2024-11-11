@@ -18,7 +18,7 @@
 <table border="0" width="1024">
 	<tr>
 		<td>
-		<p>last update: 02/27/2007</p>
+		<p>last update: 11/11/2024</p>
 		</td>
 	</tr>
 	<tr>
@@ -72,7 +72,7 @@ Go to <a href="/tools/ESE2/">ESEfinder2.0</a><p>
 
 		<p>Choose the matrix and the threshold to be used:</p>
 	<script language="javascript">
-function resetThresholds ()
+<! –– function resetThresholds ()
 {
 	this.document.query_form.threshold_sf2.value=1.956;
 	this.document.query_form.threshold_sf2_igm_brca1.value=1.867;
@@ -80,36 +80,11 @@ function resetThresholds ()
 	this.document.query_form.threshold_srp40.value=2.67;
 	this.document.query_form.threshold_srp55.value=2.676;
 }
+––>
 </script>
 <table border="0">
 <tr>
-<td><input type="checkbox" name="check_sf2" value="ON" checked></td>
-<td><b>SF2/ASF</b> (SF2/ASF round 3 winner)</td>
-<td><input type="text" name="threshold_sf2" value="1.956"></td>
-</tr>
-<tr>
-<td><input type="checkbox" name="check_sf2_igm_brca1" value="ON" checked></td>
-<td><b>SF2/ASF (IgM-BRCA1)</b> (Smith06-HMG-matrix)</td>
-<td><input type="text" name="threshold_sf2_igm_brca1" value="1.867"></td>
-</tr>
-<tr>
-<td><input type="checkbox" name="check_sc35" value="ON" checked></td>
-<td><b>SC35</b> (SC35 round 3 winner)</td>
-<td><input type="text" name="threshold_sc35" value="2.383"></td>
-</tr>
-<tr>
-<td><input type="checkbox" name="check_srp40" value="ON" checked></td>
-<td><b>SRp40</b> (SRp40 round 3 winner)</td>
-<td><input type="text" name="threshold_srp40" value="2.67"></td>
-</tr>
-<tr>
-<td><input type="checkbox" name="check_srp55" value="ON" checked></td>
-<td><b>SRp55</b> (SRp55 round 3 winner)</td>
-<td><input type="text" name="threshold_srp55" value="2.676"></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
+
 <td><input type="button" value="Reset thresholds" name="reset Thresholds" onClick="resetThresholds(); return true"></td>
 </tr>
 </table>
