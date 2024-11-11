@@ -1,4 +1,3 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN Transitional" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <meta http-equiv="Content-Language" content="en-us">
@@ -159,10 +158,9 @@ function resetThresholds ()
 	<tr>
 		<td>
 		<p align="center">
-		<a href="http://gradschool.cshl.edu/krainer_.html">Krainer Lab</a> and
-		<a href="http://rulai.cshl.edu/">Zhang Lab</a>,
-		<a href="http://www.cshl.edu">Cold Spring Harbor Laboratory</a><br>
-		Questions/suggestions email: <a href="mailto:wangjh@umn.edu">Jinhua Wang</a>.
+		<a href="https://www.mpi-hlr.de/developmental-genetics">Stainier Lab</a>
+		<a href="https://www.mpi-hlr.de/en">Max Planck Institute for Heart and Lung Research</a><br>
+		Questions/suggestions email: <a href="muzzammilbhaisaheb@gmail.com">Muzzammil B</a>.
 		</p></td>
 	</tr>
 </table>
