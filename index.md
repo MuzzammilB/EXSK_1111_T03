@@ -87,8 +87,7 @@ function refreshPage()
 </form>
 		
 <table border="0">
-			
-		</table>
+
 <br>
 
 </td>
