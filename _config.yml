@@ -1,5 +1,5 @@
 title: ESK PTC
 description: Exon skipping induced PTC finder.
-show_downloads: code
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-modernist
