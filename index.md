@@ -53,7 +53,7 @@ function refreshPage()
 <input type="hidden" name="process" value="search">
 <table border="0">
 			
-		</table>
+</table>
 
 	<script language="javascript">
  
