@@ -82,7 +82,7 @@ function refreshPage()
 				<td></td>
 			</tr>
 		</table>
-		<p>Enter your input data in FASTA or MULTI-FASTA format (5000nt max):</p>
+		<p>Enter mRNA ID (e.g NM_000000):</p>
 		<textarea rows="10" name="seq" cols="83"></textarea>
 
 		<p>Alternatively, upload a text file:
