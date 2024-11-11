@@ -64,7 +64,6 @@ function refreshPage()
 <table border="0">
 <tr>
 
-<td><input type="button" value="Reset thresholds" name="reset Thresholds" onClick="resetThresholds(); return true"></td>
 </tr>
 </table>
 
