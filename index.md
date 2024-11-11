@@ -92,10 +92,7 @@ function refreshPage()
 			</tr>
 		</table>
 		<p>Override thresholds and use one of the options: </p>
-		<input type="checkbox" value="ON" name="report_max_only"> Report only the best hit in each sequence<br>
-		<input type="checkbox" value="ON" name="report_all_score"> Report all scores in each sequence<br>
 		<input type="checkbox" value="ON" name="format_text"> Output as a plain text file</p>
-		
 		<p><input type="checkbox" value="ON" name="byemail">Please send results to: 
 		<input type="text" name="email" size="12"></p>
 		
