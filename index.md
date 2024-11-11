@@ -83,7 +83,7 @@ function refreshPage()
 			</tr>
 		</table>
 		Enter mRNA ID (e.g NM_000000):
-		<input type="text" name="mrna_id" size="12"></p>
+		<input type="text" name="mrna_id" size="12">
 		
 		<table border="0">
 			<tr>
@@ -91,7 +91,6 @@ function refreshPage()
 					<td></td>
 			</tr>
 		</table>
-		<p>Override thresholds and use one of the options: </p>
 		<input type="checkbox" value="ON" name="format_text"> Output as a plain text file</p>
 		<p><input type="checkbox" value="ON" name="byemail">Please send results to: 
 		<input type="text" name="email" size="12"></p>
