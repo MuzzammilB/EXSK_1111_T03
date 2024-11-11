@@ -65,14 +65,7 @@ function refreshPage()
 
 		<p>Choose the matrix and the threshold to be used:</p>
 	<script language="javascript">
-    function resetThresholds ()
-{
-	this.document.query_form.threshold_sf2.value=1.956;
-	this.document.query_form.threshold_sf2_igm_brca1.value=1.867;
-	this.document.query_form.threshold_sc35.value=2.383;
-	this.document.query_form.threshold_srp40.value=2.67;
-	this.document.query_form.threshold_srp55.value=2.676;
-}
+ 
 
 </script>
 <table border="0">
