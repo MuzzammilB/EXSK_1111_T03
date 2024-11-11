@@ -82,11 +82,8 @@ function refreshPage()
 				<td></td>
 			</tr>
 		</table>
-		<p>Enter mRNA ID (e.g NM_000000):</p>
-		<textarea rows="10" name="seq" cols="83"></textarea>
-
-		<p>Alternatively, upload a text file:
-		<input type="file" name="upload" size="53"></p>
+		Enter mRNA ID (e.g NM_000000):
+		<input type="text" name="mrna_id" size="12"></p>
 		
 		<table border="0">
 			<tr>
@@ -99,8 +96,8 @@ function refreshPage()
 		<input type="checkbox" value="ON" name="report_all_score"> Report all scores in each sequence<br>
 		<input type="checkbox" value="ON" name="format_text"> Output as a plain text file</p>
 		
-		<p><input type="checkbox" value="ON" name="byemail">Please send results to:
-		<input type="text" name="email" size="29"></p>
+		<p><input type="checkbox" value="ON" name="byemail">Please send results to: 
+		<input type="text" name="email" size="12"></p>
 		
 <p><input type="submit" value="Send" name="submit">
 		<input type="reset" value="Restore defaults" name="reset"></p>
