@@ -87,10 +87,7 @@ function refreshPage()
 </form>
 		
 <table border="0">
-			<tr>
-					<td>Citation information</td>
-					<td></td>
-			</tr>
+			
 		</table>
 <br>
 
