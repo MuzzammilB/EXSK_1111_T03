@@ -67,6 +67,7 @@ function refreshPage()
 				<td></td>
 			</tr>
 		</table>
+
 		Enter mRNA ID (e.g NM_000000):
 		<input type="text" name="mrna_id" size="12">
 		
@@ -76,6 +77,7 @@ function refreshPage()
 					<td></td>
 			</tr>
 		</table>
+		
 		<input type="checkbox" value="ON" name="format_text"> Output as a plain text file
 		<p><input type="checkbox" value="ON" name="byemail">Please send results to: 
 		<input type="text" name="email" size="22"></p>
@@ -94,7 +96,7 @@ function refreshPage()
 	<tr>
 		<td>
 		<p align="center">
-		<a href="https://www.mpi-hlr.de/developmental-genetics">Stainier Lab</a>
+		<a href="https://www.mpi-hlr.de/developmental-genetics">Stainier Lab</a><br>
 		<a href="https://www.mpi-hlr.de/en">Max Planck Institute for Heart and Lung Research</a><br>
 		Questions/suggestions email: <a href="muzzammilbhaisaheb@gmail.com">Muzzammil B</a>.
 		</p></td>
