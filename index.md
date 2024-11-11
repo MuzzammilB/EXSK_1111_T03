@@ -52,19 +52,14 @@ function refreshPage()
 <form method="POST" action="/cgi-bin/tools/ESE3/esefinder.cgi" name="query_form"  enctype="multipart/form-data">
 <input type="hidden" name="process" value="search">
 <table border="0">
-			<tr>
-					<td></td>
-			</tr>
+			
 		</table>
 
 	<script language="javascript">
  
 
 </script>
-<table border="0">
-<tr>
 
-</tr>
 </table>
 
 		<br>
