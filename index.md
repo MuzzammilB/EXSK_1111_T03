@@ -57,13 +57,10 @@ function refreshPage()
 <input type="hidden" name="process" value="search">
 <table border="0">
 			<tr>
-					<td>Matrix information</td>
 					<td></td>
 			</tr>
 		</table>
 
-
-		<p>Choose the matrix and the threshold to be used:</p>
 	<script language="javascript">
  
 
@@ -93,7 +90,7 @@ function refreshPage()
 		</table>
 		<input type="checkbox" value="ON" name="format_text"> Output as a plain text file</p>
 		<p><input type="checkbox" value="ON" name="byemail">Please send results to: 
-		<input type="text" name="email" size="12"></p>
+		<input type="text" name="email" size="22"></p>
 		
 <p><input type="submit" value="Send" name="submit">
 		<input type="reset" value="Restore defaults" name="reset"></p>
