@@ -2,7 +2,6 @@
 <head>
 <meta http-equiv="Content-Language" content="en-us">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>ESEfinder 3.0 -- </title>
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-PR10KZ63WV"></script>
@@ -21,10 +20,7 @@
 		<p>last update: 11/11/2024</p>
 		</td>
 	</tr>
-	<tr>
-			<td align="center">
-					<img src="/tools/ESE3/images/eselogo.gif" width="450" height="150"><br>
-	</tr>
+	
 	<tr>
 		<td align="center">
 		<p>
