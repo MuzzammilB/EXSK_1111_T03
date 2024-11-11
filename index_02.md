@@ -1,0 +1,171 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN Transitional" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>ESEfinder 3.0 -- </title>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PR10KZ63WV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-PR10KZ63WV');
+</script>
+</head>
+
+<body>
+<table border="0" width="1024">
+	<tr>
+		<td>
+		<p>last update: 02/27/2007</p>
+		</td>
+	</tr>
+	<tr>
+			<td align="center">
+					<img src="/tools/ESE3/images/eselogo.gif" width="450" height="150"><br>
+	</tr>
+	<tr>
+		<td align="center">
+		<p>
+		<a href="/cgi-bin/tools/ESE3/esefinder.cgi?process=home">Search</a> |
+		<a href="/cgi-bin/tools/ESE3/esefinder.cgi?process=background">background</a> |
+		<a href="/cgi-bin/tools/ESE3/esefinder.cgi?process=matrices">matrices &amp; thresholds</a> | 
+		<a href="/cgi-bin/tools/ESE3/esefinder.cgi?process=output">input & output</a> | 
+		<a href="/cgi-bin/tools/ESE3/esefinder.cgi?process=caveats">caveats</a></p>
+		</td>
+	</tr>
+	<tr>
+			<td>
+<script language="javascript">
+function refreshPage()
+{
+	var dbName=this.document.query_form.db.value;
+	document.db_select_form.db.value = dbName;
+	document.db_select_form.submit();
+}
+</script>
+
+<form method="POST" name="db_select_form" action="/cgi-bin/tools/ESE3/esefinder.cgi" ENCTYPE="multipart/form-data">
+		<input type="hidden" name="db" value="">
+		<input type="hidden" name="process" value="home">
+</form>
+
+<br><br>
+Go to <a href="/tools/ESE2/">ESEfinder2.0</a><p>
+
+<form method="POST" action="/cgi-bin/tools/ESE3/esefinder.cgi" name="query_form"  enctype="multipart/form-data">
+<input type="hidden" name="process" value="search">
+<table border="0">
+			<tr>
+					<td>Matrix information</td>
+					<td></td>
+			</tr>
+		</table>
+		<p>Please choose a matrix library:</p>
+			
+			<select size="1" name="db" onchange="refreshPage(); return true;">
+<option value="SRProteins"selected>SRProteins</option>
+<option value="SpliceSites">SpliceSites</option>
+<option value="hnRNP">hnRNP</option>
+</select>
+
+		<p>Choose the matrix and the threshold to be used:</p>
+	<script language="javascript">
+function resetThresholds ()
+{
+	this.document.query_form.threshold_sf2.value=1.956;
+	this.document.query_form.threshold_sf2_igm_brca1.value=1.867;
+	this.document.query_form.threshold_sc35.value=2.383;
+	this.document.query_form.threshold_srp40.value=2.67;
+	this.document.query_form.threshold_srp55.value=2.676;
+}
+</script>
+<table border="0">
+<tr>
+<td><input type="checkbox" name="check_sf2" value="ON" checked></td>
+<td><b>SF2/ASF</b> (SF2/ASF round 3 winner)</td>
+<td><input type="text" name="threshold_sf2" value="1.956"></td>
+</tr>
+<tr>
+<td><input type="checkbox" name="check_sf2_igm_brca1" value="ON" checked></td>
+<td><b>SF2/ASF (IgM-BRCA1)</b> (Smith06-HMG-matrix)</td>
+<td><input type="text" name="threshold_sf2_igm_brca1" value="1.867"></td>
+</tr>
+<tr>
+<td><input type="checkbox" name="check_sc35" value="ON" checked></td>
+<td><b>SC35</b> (SC35 round 3 winner)</td>
+<td><input type="text" name="threshold_sc35" value="2.383"></td>
+</tr>
+<tr>
+<td><input type="checkbox" name="check_srp40" value="ON" checked></td>
+<td><b>SRp40</b> (SRp40 round 3 winner)</td>
+<td><input type="text" name="threshold_srp40" value="2.67"></td>
+</tr>
+<tr>
+<td><input type="checkbox" name="check_srp55" value="ON" checked></td>
+<td><b>SRp55</b> (SRp55 round 3 winner)</td>
+<td><input type="text" name="threshold_srp55" value="2.676"></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><input type="button" value="Reset thresholds" name="reset Thresholds" onClick="resetThresholds(); return true"></td>
+</tr>
+</table>
+
+		<br>
+		<table border="0">
+			<tr>
+				<td>Sequence information</td>
+				<td></td>
+			</tr>
+		</table>
+		<p>Enter your input data in FASTA or MULTI-FASTA format (5000nt max):</p>
+		<textarea rows="10" name="seq" cols="83"></textarea>
+
+		<p>Alternatively, upload a text file:
+		<input type="file" name="upload" size="53"></p>
+		
+		<table border="0">
+			<tr>
+					<td>Output information</td>
+					<td></td>
+			</tr>
+		</table>
+		<p>Override thresholds and use one of the options: </p>
+		<input type="checkbox" value="ON" name="report_max_only"> Report only the best hit in each sequence<br>
+		<input type="checkbox" value="ON" name="report_all_score"> Report all scores in each sequence<br>
+		<input type="checkbox" value="ON" name="format_text"> Output as a plain text file</p>
+		
+		<p><input type="checkbox" value="ON" name="byemail">Please send results to:
+		<input type="text" name="email" size="29"></p>
+		
+<p><input type="submit" value="Send" name="submit">
+		<input type="reset" value="Restore defaults" name="reset"></p>
+</form>
+		
+<table border="0">
+			<tr>
+					<td>Citation information</td>
+					<td></td>
+			</tr>
+		</table>
+<br>
+
+</td>
+	</tr>
+	<tr>
+		<td>
+		<p align="center">
+		<a href="http://gradschool.cshl.edu/krainer_.html">Krainer Lab</a> and
+		<a href="http://rulai.cshl.edu/">Zhang Lab</a>,
+		<a href="http://www.cshl.edu">Cold Spring Harbor Laboratory</a><br>
+		Questions/suggestions email: <a href="mailto:wangjh@umn.edu">Jinhua Wang</a>.
+		</p></td>
+	</tr>
+</table>
+
+</body>
+</html>
