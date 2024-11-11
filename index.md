@@ -77,9 +77,9 @@ function refreshPage()
 					<td></td>
 			</tr>
 		</table>
-		
+
 		<input type="checkbox" value="ON" name="format_text"> Output as a plain text file
-		<p><input type="checkbox" value="ON" name="byemail">Please send results to: 
+		<p><input type="checkbox" value="ON" name="byemail"> Please send results to: 
 		<input type="text" name="email" size="22"></p>
 		
 <p><input type="submit" value="Send" name="submit">
