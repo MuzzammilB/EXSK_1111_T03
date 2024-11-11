@@ -52,7 +52,6 @@ function refreshPage()
 </form>
 
 <br><br>
-Go to <a href="/tools/ESE2/">ESEfinder2.0</a><p>
 
 <form method="POST" action="/cgi-bin/tools/ESE3/esefinder.cgi" name="query_form"  enctype="multipart/form-data">
 <input type="hidden" name="process" value="search">
@@ -62,17 +61,11 @@ Go to <a href="/tools/ESE2/">ESEfinder2.0</a><p>
 					<td></td>
 			</tr>
 		</table>
-		<p>Please choose a matrix library:</p>
-			
-			<select size="1" name="db" onchange="refreshPage(); return true;">
-<option value="SRProteins"selected>SRProteins</option>
-<option value="SpliceSites">SpliceSites</option>
-<option value="hnRNP">hnRNP</option>
-</select>
+
 
 		<p>Choose the matrix and the threshold to be used:</p>
 	<script language="javascript">
-<! –– function resetThresholds ()
+    function resetThresholds ()
 {
 	this.document.query_form.threshold_sf2.value=1.956;
 	this.document.query_form.threshold_sf2_igm_brca1.value=1.867;
@@ -80,7 +73,7 @@ Go to <a href="/tools/ESE2/">ESEfinder2.0</a><p>
 	this.document.query_form.threshold_srp40.value=2.67;
 	this.document.query_form.threshold_srp55.value=2.676;
 }
-––>
+
 </script>
 <table border="0">
 <tr>
