@@ -25,10 +25,8 @@
 		<td align="center">
 		<p>
 		<a href="/cgi-bin/tools/ESE3/esefinder.cgi?process=home">Search</a> |
-		<a href="/cgi-bin/tools/ESE3/esefinder.cgi?process=background">background</a> |
-		<a href="/cgi-bin/tools/ESE3/esefinder.cgi?process=matrices">matrices &amp; thresholds</a> | 
+		<a href="/cgi-bin/tools/ESE3/esefinder.cgi?process=background">background</a> | 
 		<a href="/cgi-bin/tools/ESE3/esefinder.cgi?process=output">input & output</a> | 
-		<a href="/cgi-bin/tools/ESE3/esefinder.cgi?process=caveats">caveats</a></p>
 		</td>
 	</tr>
 	<tr>
