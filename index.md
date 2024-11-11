@@ -69,10 +69,11 @@ function refreshPage()
 		</table>
 		Enter mRNA ID (e.g NM_000000):
 		<input type="text" name="mrna_id" size="12">
-		
+		<td></td>
+
 		<table border="0">
 			<tr>
-					<td>Output information</td>
+					<td></td>
 					<td></td>
 			</tr>
 		</table>
