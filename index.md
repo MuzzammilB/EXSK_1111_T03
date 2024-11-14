@@ -18,7 +18,7 @@
     <p>Use the notebook below to enter your input and get results:</p>
     
     <!-- Embed the Colab notebook using an iframe -->
-    <iframe src="https://colab.research.google.com/drive/1vbgQ7lF-Oe08eZkaGZXv2QN-toJOIVVv?usp=sharing" width="100%" height="600"></iframe>
+    <iframe src="https://colab.research.google.com/drive/1vbgQ7lF-Oe08eZkaGZXv2QN-toJOIVVv" width="100%" height="600"></iframe>
 <table border="0" width="1024">
 	<tr>
 		<td>
