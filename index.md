@@ -15,10 +15,10 @@
 
 <body>
 <h1>Python Processing Notebook</h1>
-    <p>Use the notebook below to enter your input and get results:</p>
-    
-    <!-- Embed the Colab notebook using an iframe -->
-    <iframe src="https://colab.research.google.com/drive/1vbgQ7lF-Oe08eZkaGZXv2QN-toJOIVVv" width="100%" height="600"></iframe>
+    <a href="https://colab.research.google.com/drive/1vbgQ7lF-Oe08eZkaGZXv2QN-toJOIVVv" target="_blank">
+    Open the Python Processing Notebook on Colab
+</a>
+
 <table border="0" width="1024">
 	<tr>
 		<td>
