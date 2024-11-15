@@ -3,3 +3,4 @@ description: Exon skipping induced PTC finder.
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-modernist
+use_csp: false
